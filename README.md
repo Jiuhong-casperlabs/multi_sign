@@ -14,6 +14,10 @@ sign_key_2:
 account-hash-ab32c6ed39f43ff55febd0e3e8baa31c84929c1bf50a2b48186d6f286e531145
 ```
 
+## contract prepare
+```
+make build-contract
+```
 
 ## update the master key weight to 3
 ```
