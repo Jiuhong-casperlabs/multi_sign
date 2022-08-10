@@ -1,3 +1,9 @@
+## Summary
+```
+For deploy or native transfer, secret key of master account isn't required.
+The info required for master key is its public key(both native transfer and deploy) and purse(for native transfer only).
+```
+
 ## Keys prepare
 ```
 master_key : 
