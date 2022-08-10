@@ -59,10 +59,9 @@ casper-client put-deploy --chain-name casper-net-1 \
 ```
 
 
-[js client](jsclient/README.md)
-
-
-The master key should be like this:
+<details>
+  <summary>The master key should be like this:</summary>
+  
 ```
    # "result": {
     #     "api_version": "1.0.0",
@@ -92,3 +91,10 @@ The master key should be like this:
     #         }
     #     },
 ```
+</details>
+
+
+
+## Play with multi sign
+[multi sign](jsclient/README.md)
+
