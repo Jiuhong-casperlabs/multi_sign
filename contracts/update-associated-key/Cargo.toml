@@ -1,0 +1,16 @@
+[package]
+name = "update-associated-key"
+version = "0.1.0"
+authors = ["Ed Hastings <ed@casperlabs.io"]
+edition = "2018"
+
+[[bin]]
+name = "update_associated_key"
+path = "src/main.rs"
+bench = false
+doctest = false
+test = false
+
+[dependencies]
+casper-contract = "1.4.4"
+casper-types = "1.5.0"

@@ -1,0 +1,16 @@
+{
+  "name": "multi_sign",
+  "version": "1.0.0",
+  "description": "sdk for multi_sign",
+  "scripts": {
+    "multitransfer": "node -r esm -e 'require(\"./src/muti_keys_transfer.js\")'",
+    "multiinstallerc20": "node -r esm -e 'require(\"./src/multi_installerc20.js\")'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "casper-js-sdk": "^2.9.1",
+    "esm": "^3.2.25",
+    "lodash": "^4.17.21"
+  }
+}

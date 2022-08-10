@@ -1,0 +1,9 @@
+[workspace]
+
+members = [
+    "contracts/add-associated-key",
+    "contracts/update-associated-key",
+    "contracts/authorized-keys"]
+
+[profile.release]
+lto = true 
