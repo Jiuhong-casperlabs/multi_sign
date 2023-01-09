@@ -2,6 +2,7 @@
 
 members = [
     "contracts/add-associated-key",
+    "contracts/remove-associated-key",
     "contracts/update-associated-key",
     "contracts/authorized-keys"]
 
